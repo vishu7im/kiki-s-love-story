@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const TOGETHER_SINCE = new Date("2024-12-27T00:00:00");
+const TOGETHER_SINCE = new Date("2022-12-27T00:00:00");
 
 const LoveCountdown = () => {
   const [elapsed, setElapsed] = useState(getElapsed());

@@ -111,7 +111,7 @@ const HowWeMetSection = ({ onNext }: { onNext: () => void }) => (
   <section className="min-h-screen flex flex-col items-center justify-center px-6 py-16 gap-8">
     <div className="max-w-lg w-full space-y-6 section-enter">
       <SectionHeader chapter="Chapter One" title="How We Met 💫" />
-      <DateBadge date="19 December 2023" />
+      <DateBadge date="19 December 2022" />
 
       <div className="image-romantic animate-slide-up-fade stagger-1">
         <img src="/images/1.jpeg" alt="How we met" className="w-full aspect-[4/3] object-cover" />
@@ -121,7 +121,7 @@ const HowWeMetSection = ({ onNext }: { onNext: () => void }) => (
         <p className="font-body text-foreground/80 leading-relaxed text-center">
           Some people search their whole lives for what I found on that winter day.
           The universe conspired to bring us together — and the moment I saw you,
-          everything changed. I didn't know it then, but that day, 19th December 2023,
+          everything changed. I didn't know it then, but that day, 19th December 2022,
           was the day my life truly began. ✨
         </p>
       </div>
@@ -141,7 +141,7 @@ const BecameMineSection = ({ onNext }: { onNext: () => void }) => (
   <section className="min-h-screen flex flex-col items-center justify-center px-6 py-16 gap-8">
     <div className="max-w-lg w-full space-y-6 section-enter">
       <SectionHeader chapter="Chapter Two" title="When You Became Mine 💕" />
-      <DateBadge date="27 December 2024" />
+      <DateBadge date="27 December 2023" />
 
       <div className="relative">
         <div className="image-romantic animate-slide-up-fade stagger-1">
@@ -155,7 +155,7 @@ const BecameMineSection = ({ onNext }: { onNext: () => void }) => (
       <div className="glass-card p-6 animate-slide-up-fade stagger-2">
         <p className="font-body text-foreground/80 leading-relaxed text-center">
           A whole year of knowing you, of falling deeper every single day —
-          and then, on 27th December 2024, you said yes. My heart still
+          and then, on 27th December 2023, you said yes. My heart still
           skips a beat thinking about that moment. You weren't just someone
           I liked anymore — you became my person, my safe place, my everything.
           That day, I became the luckiest person alive. 💖
@@ -330,7 +330,7 @@ const FinalSection = ({ onReplay }: { onReplay: () => void }) => (
       <h1 className="font-display text-4xl sm:text-6xl text-primary animate-slide-up-fade stagger-3 animate-text-glow">
         Happy Birthday
         <br />
-        My Love, Khushi (Kiki) ❤️
+        My Love, KIKI (KHUSHI) ❤️
       </h1>
 
       <p className="font-body text-muted-foreground animate-slide-up-fade stagger-4 text-lg">
