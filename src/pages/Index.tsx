@@ -69,7 +69,7 @@ const LandingSection = ({ onStart }: { onStart: () => void }) => (
       <span className="text-7xl">🎂</span>
     </div>
     <h1 className="font-display text-5xl sm:text-7xl lg:text-8xl text-romantic animate-slide-up-fade animate-text-glow">
-      Happy Birthday Khushi ❤️
+      Happy Birthday KIKI ❤️
     </h1>
     <div className="romantic-divider animate-slide-up-fade stagger-1">
       <span className="text-primary/60 font-display text-lg">10 February 2026</span>
@@ -114,7 +114,7 @@ const HowWeMetSection = ({ onNext }: { onNext: () => void }) => (
       <DateBadge date="19 December 2023" />
 
       <div className="image-romantic animate-slide-up-fade stagger-1">
-        <img src="/images/1.jpg" alt="How we met" className="w-full aspect-[4/3] object-cover" />
+        <img src="/images/1.jpeg" alt="How we met" className="w-full aspect-[4/3] object-cover" />
       </div>
 
       <div className="glass-card p-6 animate-slide-up-fade stagger-2">
@@ -127,7 +127,7 @@ const HowWeMetSection = ({ onNext }: { onNext: () => void }) => (
       </div>
 
       <div className="image-romantic animate-slide-up-fade stagger-3">
-        <img src="/images/2.jpg" alt="First moments" className="w-full aspect-[4/3] object-cover" />
+        <img src="/images/2.jpeg" alt="First moments" className="w-full aspect-[4/3] object-cover" />
       </div>
 
       <div className="flex justify-center pt-4 animate-slide-up-fade stagger-4">
@@ -145,7 +145,7 @@ const BecameMineSection = ({ onNext }: { onNext: () => void }) => (
 
       <div className="relative">
         <div className="image-romantic animate-slide-up-fade stagger-1">
-          <img src="/images/3.jpg" alt="Together" className="w-full aspect-[4/3] object-cover" />
+          <img src="/images/3.jpeg" alt="Together" className="w-full aspect-[4/3] object-cover" />
         </div>
         <div className="absolute -top-4 -right-4 text-4xl animate-heartbeat">💗</div>
         <div className="absolute -bottom-4 -left-4 text-3xl animate-sway">🌹</div>
@@ -163,7 +163,7 @@ const BecameMineSection = ({ onNext }: { onNext: () => void }) => (
       </div>
 
       <div className="image-romantic animate-slide-up-fade stagger-3">
-        <img src="/images/4.jpg" alt="Us together" className="w-full aspect-[4/3] object-cover" />
+        <img src="/images/4.jpeg" alt="Us together" className="w-full aspect-[4/3] object-cover" />
       </div>
 
       <div className="flex justify-center pt-4 animate-slide-up-fade stagger-4">
@@ -186,7 +186,7 @@ const WhySpecialSection = ({ onNext }: { onNext: () => void }) => (
       </div>
 
       <div className="image-romantic animate-slide-up-fade stagger-4">
-        <img src="/images/5.jpg" alt="Special moments" className="w-full aspect-[4/3] object-cover" />
+        <img src="/images/5.jpeg" alt="Special moments" className="w-full aspect-[4/3] object-cover" />
       </div>
 
       <div className="flex justify-center pt-4 animate-slide-up-fade stagger-5">
@@ -202,7 +202,7 @@ const BirthdayWishSection = ({ onNext }: { onNext: () => void }) => (
       <SectionHeader chapter="Chapter Four" title="My Birthday Wish for You 🎂" />
 
       <div className="image-romantic animate-slide-up-fade stagger-1">
-        <img src="/images/6.jpg" alt="Birthday" className="w-full aspect-[4/3] object-cover" />
+        <img src="/images/6.jpeg" alt="Birthday" className="w-full aspect-[4/3] object-cover" />
       </div>
 
       <div className="glass-card p-8 animate-slide-up-fade stagger-2 relative">
@@ -250,12 +250,43 @@ const GallerySection = ({ onNext }: { onNext: () => void }) => (
       <div className="animate-slide-up-fade stagger-2">
         <MemoryGallery
           images={[
-            "/images/7.jpg",
-            "/images/8.jpg",
-            "/images/9.jpg",
-            "/images/10.jpg",
-            "/images/11.jpg",
-            "/images/12.jpg",
+            "/images/7.jpeg",
+            "/images/8.jpeg",
+            "/images/9.jpeg",
+            "/images/10.jpeg",
+            "/images/11.jpeg",
+            "/images/12.jpeg",
+            "/images/13.jpeg",
+            "/images/14.jpeg",
+            "/images/15.jpeg",
+            "/images/16.jpeg",
+            "/images/17.jpeg",
+            "/images/18.jpeg",
+            "/images/19.jpeg",
+            "/images/20.jpeg",
+            "/images/21.jpeg",
+            "/images/22.jpeg",
+            "/images/23.jpeg",
+            "/images/24.jpeg",
+            "/images/25.jpeg",
+            "/images/26.jpeg",
+            "/images/27.jpeg",
+            "/images/28.jpeg",
+            "/images/29.jpeg",
+            "/images/30.jpeg",
+            "/images/31.jpeg",
+            "/images/32.jpeg",
+            "/images/33.jpeg",
+            "/images/34.jpeg",
+            "/images/35.jpeg",
+            "/images/36.jpeg",
+            "/images/37.jpeg",
+            "/images/38.jpeg",
+            "/images/39.jpeg",
+            "/images/40.jpeg",
+            "/images/41.jpeg",
+            "/images/42.jpeg",
+
           ]}
         />
       </div>
@@ -289,7 +320,7 @@ const FinalSection = ({ onReplay }: { onReplay: () => void }) => (
 
       <div className="relative animate-slide-up-fade stagger-2">
         <div className="image-romantic border-4 border-primary/30">
-          <img src="/images/13.jpg" alt="Us forever" className="w-full aspect-[4/3] object-cover" />
+          <img src="/images/43.jpeg" alt="Us forever" className="w-full aspect-[4/3] object-cover" />
         </div>
         <span className="absolute -top-4 -right-4 text-3xl animate-heartbeat">💕</span>
         <span className="absolute -bottom-4 -left-4 text-3xl animate-sway">🌹</span>
