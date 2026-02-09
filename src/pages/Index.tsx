@@ -3,6 +3,8 @@ import FloatingHearts from "@/components/FloatingHearts";
 import StoryButton from "@/components/StoryButton";
 import SpecialCard from "@/components/SpecialCard";
 import MemoryGallery from "@/components/MemoryGallery";
+import MusicToggle from "@/components/MusicToggle";
+import LoveCountdown from "@/components/LoveCountdown";
 
 const TOTAL_SECTIONS = 7;
 
@@ -23,6 +25,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-romantic-gradient relative">
+      <MusicToggle />
       <FloatingHearts />
 
       <div
@@ -56,7 +59,10 @@ const LandingSection = ({ onStart }: { onStart: () => void }) => (
     <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-md animate-slide-up-fade stagger-2">
       This is not just a website, it's my heart 💗
     </p>
-    <div className="animate-slide-up-fade stagger-3">
+    <div className="w-full max-w-sm animate-slide-up-fade stagger-3">
+      <LoveCountdown />
+    </div>
+    <div className="animate-slide-up-fade stagger-4">
       <StoryButton label="Start the Journey 🌸" onClick={onStart} />
     </div>
   </section>
