@@ -14,22 +14,27 @@ const LoveCountdown = () => {
     <div className="bg-card/60 backdrop-blur-sm rounded-2xl p-6 border border-border shadow-md text-center space-y-3">
       <p className="font-body text-muted-foreground text-sm tracking-widest uppercase">Together for</p>
       <div className="flex justify-center gap-3 flex-wrap">
-        <TimeUnit value={elapsed.days} label="Days" />
-        <TimeUnit value={elapsed.hours} label="Hours" />
-        <TimeUnit value={elapsed.minutes} label="Min" />
-        <TimeUnit value={elapsed.seconds} label="Sec" />
+        <div className="bg-secondary/60 rounded-xl px-4 py-2 min-w-[60px]">
+          <p className="font-body text-2xl font-bold text-primary">{elapsed.days}</p>
+          <p className="font-body text-xs text-muted-foreground">Days</p>
+        </div>
+        <div className="bg-secondary/60 rounded-xl px-4 py-2 min-w-[60px]">
+          <p className="font-body text-2xl font-bold text-primary">{elapsed.hours}</p>
+          <p className="font-body text-xs text-muted-foreground">Hours</p>
+        </div>
+        <div className="bg-secondary/60 rounded-xl px-4 py-2 min-w-[60px]">
+          <p className="font-body text-2xl font-bold text-primary">{elapsed.minutes}</p>
+          <p className="font-body text-xs text-muted-foreground">Min</p>
+        </div>
+        <div className="bg-secondary/60 rounded-xl px-4 py-2 min-w-[60px]">
+          <p className="font-body text-2xl font-bold text-primary">{elapsed.seconds}</p>
+          <p className="font-body text-xs text-muted-foreground">Sec</p>
+        </div>
       </div>
       <p className="font-display text-primary text-lg">…and counting forever 💕</p>
     </div>
   );
 };
-
-const TimeUnit = ({ value, label }: { value: number; label: string }) => (
-  <div className="bg-secondary/60 rounded-xl px-4 py-2 min-w-[60px]">
-    <p className="font-body text-2xl font-bold text-primary">{value}</p>
-    <p className="font-body text-xs text-muted-foreground">{label}</p>
-  </div>
-);
 
 function getElapsed() {
   const now = Date.now();
